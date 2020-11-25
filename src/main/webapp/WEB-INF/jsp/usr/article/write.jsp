@@ -6,7 +6,7 @@
 
 
 
-<form action="doWrite" method="POST" class="form con " onsubmit="WriteFormSubmit(this); return false;">
+<form action="doWrite" method="POST" class="form con box" onsubmit="WriteFormSubmit(this); return false;">
 	<div class="form-box ">
 		<div class="form-control-box">
 			<div class="form-title-box">단어 / 문장</div>

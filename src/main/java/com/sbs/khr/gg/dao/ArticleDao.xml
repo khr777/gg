@@ -16,4 +16,16 @@
 			</if>
 		</set>
 	</insert>
+	
+	<select  id="getForPrintArticles" resultType="Article">
+		SELECT *
+		FROM article
+	</select>
+	
+	<select  id="getForPrintArticle" resultType="Article">
+		SELECT *
+		FROM article
+		WHERE id = #{id}
+	</select>
+	
 </mapper>
