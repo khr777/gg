@@ -11,7 +11,12 @@
 	<div>
 		<div class="lit-box  flex flex-jc-c">
 			<div>
-				<div class="text-title">단어장 상세보기</div>
+				<div class="flex flex-jc-sb flex-ai-c ">
+					<div class="text-title ">단어장 상세보기</div>
+					<div class="btn-box "  style="margin: 0;">
+						<button class="btn-info"   type="button" onclick="history.back();">뒤로가기</button>
+					</div>
+				</div>
 				<div class="detail-title">단어 / 문장</div>
 				<div class="detail-body">${article.title}</div>
 			</div>
@@ -26,7 +31,9 @@
 					<div class="detail-writer">작성자 : 홍길동</div>
 				</div>
 				<div class="btn-box flex flex-jc-sa">
-					<button class="btn-danger" type="button" onclick="if(confirm('삭제하시겠습니까?') == false) return false; location.replace('../article/doDelete?id=${article.id}')">삭제</button>
+
+					<button class="btn-danger" type="button"
+						onclick="if(confirm('삭제하시겠습니까?') == false) return false; location.replace('../article/doDelete?id=${article.id}')">삭제</button>
 					<button class="btn-warning"
 						onclick="location.replace('../article/modify?id=${article.id}')">수정</button>
 				</div>

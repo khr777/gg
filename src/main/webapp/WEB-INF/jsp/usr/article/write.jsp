@@ -15,9 +15,9 @@
 			</div>
 		</div>
 		<div class="form-control-box">
-			<div class="form-title-box">의미</div>
+			<div class="form-title-box">메모</div>
 			<div class="form-body-box">
-				<textarea name="body" placeholder="의미를 입력해주세요." class="textarea"></textarea>
+				<textarea name="body" placeholder="메모를 입력해주세요." class="textarea"></textarea>
 			</div>
 		</div>
 		<div class="btn-box flex flex-jc-c ">

@@ -19,4 +19,8 @@ public interface ArticleDao {
 
 	void modify(Map<String, Object> param);
 
+	void delete(@Param("id") int id);
+
+	List<Article> getForTestArticles();
+
 }

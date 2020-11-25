@@ -70,6 +70,30 @@ public class ArticleController {
 		model.addAttribute("msg", "단어장을 수정했습니다.");
 		model.addAttribute("replaceUri", "../article/detail?id=" + Util.getAsInt(param.get("id")));
 		
+		
 		return "common/redirect";
 	}
+	
+	@RequestMapping("/usr/article/doDelete")
+	public String doDelete(int id, Model model) {
+		
+		articleService.delete(id);
+		
+		model.addAttribute("msg", "단어를 삭제했습니다.");
+		model.addAttribute("replaceUri", "../article/list");
+		
+		return "common/redirect";
+	}
+	
+	
+	@RequestMapping("/usr/article/test")
+	public String showTest(Model model) {
+		List<Article> articles = articleService.getForTestArticles();
+		
+		model.addAttribute("articles", articles);
+		
+		return "/usr/article/test";
+	}
+	
+	
 }

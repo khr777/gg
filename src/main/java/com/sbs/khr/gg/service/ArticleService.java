@@ -38,4 +38,12 @@ public class ArticleService {
 		articleDao.modify(param);
 	}
 
+	public void delete(int id) {
+		articleDao.delete(id);
+	}
+
+	public List<Article> getForTestArticles() {
+		return articleDao.getForTestArticles();
+	}
+
 }
