@@ -34,4 +34,8 @@ public class ArticleService {
 		return articleDao.getForPrintArticle(id);
 	}
 
+	public void modify(Map<String, Object> param) {
+		articleDao.modify(param);
+	}
+
 }

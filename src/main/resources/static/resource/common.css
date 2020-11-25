@@ -263,6 +263,14 @@ body {
 	margin-right: auto;
 }
 
+.form > .form-box >.form-control-box .text-title,
+.text-title
+ {
+	font-size: 1.6rem;
+	font-weight: bold;
+	color: #6300ff;
+}
+
 .form > .form-box >.form-control-box  input {
 	width: 500px;
 	height: 100px;
@@ -276,7 +284,7 @@ body {
 	height: 200px;
 	font-size: 1.2rem;
 	resize: none;
-	
+	padding: 10px;
 }
 
 .form > .form-box >.form-control-box  textarea.text {
@@ -298,13 +306,13 @@ body {
 
 .form .btn-box  {
 	margin-top: 20px;
+	
 }
 
 .form .btn-box button, .btn-box button {
 	border: none;
 	width: 100%;
 	height: 40px;
-	
 	border-radius: 20px;
 	
 }
@@ -361,5 +369,10 @@ body {
 
 
 /* 리스트 페이지 끝 */
+
+/* 버튼 */
+.btn-box button:hover {
+	cursor: pointer;
+}
 
 /* 커스텀 끝 */
