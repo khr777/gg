@@ -32,7 +32,7 @@
 	</div>
 </div>
 
-<div class="list-box con flex flex-jc-sb margin-top-50  ">
+<div class="list-box test-box con flex flex-jc-sb margin-top-50  ">
 	<div class="word-box lit-box  ">
 		<div class="border-bottom"></div>
 		<div class="title">단어 / 문장</div>
@@ -155,6 +155,7 @@ function passCheck(article, input) {
 	width: 100%;
 	display: flex;
 }
+
 </style>
 
 

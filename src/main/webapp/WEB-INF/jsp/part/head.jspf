@@ -34,7 +34,7 @@
 					<li><a href="../article/list" class="height-100p flex flex-ai-c">LIST</a></li>
 					<li><a href="../article/test" class="height-100p flex flex-ai-c">TEST</a></li>
 					<li><a href="../article/write" class="height-100p flex flex-ai-c">WRITE</a></li>
-					<li><a href="#" class="height-100p flex flex-ai-c">LOGIN</a></li>
+					<li><a href="../member/login" class="height-100p flex flex-ai-c">LOGIN</a></li>
 				</ul>
 			</nav>
 		</div>
