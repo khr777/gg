@@ -1,0 +1,29 @@
+# 데이터베이스 생성
+CREATE DATABASE gg;
+
+# 데이터베이스 선택 
+USE gg;
+
+# 게시물 테이블 생성
+CREATE TABLE article (
+    id INT(10) UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    regDate DATETIME NOT NULL,
+    updateDate DATETIME NOT NULL,
+    title TEXT NOT NULL,
+    `body` LONG NOT NULL
+);
+
+
+
+# 회원 테이블 생성
+CREATE TABLE `member` (
+  id INT(10) UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  regDate DATETIME NOT NULL,
+  updateDate DATETIME NOT NULL,
+  loginId VARCHAR(100) NOT NULL,
+  loginPw VARCHAR(200) NOT NULL,
+  `name` VARCHAR(100) NOT NULL,
+  nickname VARCHAR(100) NOT NULL,
+  email VARCHAR(100) NOT NULL
+);
+

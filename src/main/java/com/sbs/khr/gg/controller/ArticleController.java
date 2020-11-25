@@ -30,7 +30,7 @@ public class ArticleController {
 
 		int newArticleId = articleService.write(param);
 		model.addAttribute("msg", "단어를 저장했습니다.");
-		model.addAttribute("replaceUri", "../home/main");
+		model.addAttribute("replaceUri", "../article/write");
 
 		return "common/redirect";
 	}
