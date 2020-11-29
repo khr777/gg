@@ -83,6 +83,11 @@ function allOpen() {
 	font-weight: bold;
 	background-color: #45c6ba;
 }
+
+
+
+
+
 </style>
 
 

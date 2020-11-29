@@ -108,7 +108,7 @@ function colorChange() {
 
 function passCheck(article, input) {
 	 if(event.keyCode == 13) {
-		 alert('단어/문장 : ' + article.title + '\n\n메모 : ' + article.body + '\n\n정답을 확인해주세요.');
+		 alert( '정답을 확인해주세요.\n\n' + '단어/문장 : ' + article.title + '\n\n메모 : ' + article.body );
 		 if ( input.value == article.title ) {
 		 $('.btn-box .pass').css('color', 'red'); 
 		 setTimeout(colorChange, 1000); 
