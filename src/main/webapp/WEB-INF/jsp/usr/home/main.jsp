@@ -25,8 +25,9 @@
 		<div class="main-title-1 flex  flex-jc-sb">
 			<div class="img-box">
 				<img
-					src="https://cdn.pixabay.com/photo/2019/05/14/21/50/storytelling-4203628_1280.jpg"
+					src="https://cdn.pixabay.com/photo/2015/04/03/16/36/bee-705412_1280.png"
 					alt="" />
+
 			</div>
 			<div class="text-box  flex flex-ai-c">
 				<div>
@@ -47,14 +48,14 @@
 			</div>
 			<div class="img-box">
 				<img
-					src="https://cdn.pixabay.com/photo/2015/04/03/16/36/bee-705412_1280.png"
+					src="https://cdn.pixabay.com/photo/2019/05/14/21/50/storytelling-4203628_1280.jpg"
 					alt="" />
 			</div>
 
 		</div>
 	</div>
-	
-	
+
+
 
 </div>
 <div class="bottom-bar flex flex-jc-c flex-ai-c">
