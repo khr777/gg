@@ -54,40 +54,17 @@
 
 		</div>
 	</div>
-</div>
 
-<div class="bottom-bar flex flex-jc-c">
-	<div style="margin: 30px 0">
-		<a
-			href="https://play.google.com/store/apps/details?id=com.laon.housepuzzle.house_puzzle"
-			target="_blank"><img
-			src="http://housepuzzle.net/images/google.jpg" alt="이미지 오류"></a> <a
-			href="https://itunes.apple.com/app/id1537745963" target="_blank"><img
-			src="http://housepuzzle.net/images/app.jpg" alt="이미지 오류"></a>
-	</div>
+
+
 </div>
-<div class="flex flex-jc-c flex-ai-c">
+<div class="bottom-bar flex flex-jc-c flex-ai-c">
 	<div class="con ">
 		<div class="cp-name">회사명 : GG 컴퍼니(Let's get going)</div>
 		<div class="ceo-name">대표 : 김혜련</div>
 		<div class="email">문의 : kim5638yw@gmail.com</div>
 	</div>
 </div>
-
-<!-- 모바일/태블릿/PC 확인하는 JS -->
-<script>
-if (!navigator.userAgent.match(/Android|Mobile|iP(hone|od|ad)|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/)) {
-    alert("나는 PC")
-    //PC에서만 실행 될 스크립트
-}
-
-
-if (navigator.userAgent.match(/Android|Mobile|iP(hone|od|ad)|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/)) {
-
-    alert("나는 모바일 또는 태블릿이지롱")
-    //모바일(스마트폰+태블릿)일 때 실행 될 스크립트
-}
-</script>
 
 
 
